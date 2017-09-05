@@ -103,6 +103,11 @@ a img:focus, a img:hover { cursor:zoom-in }
 	font-family:Times,Tahoma,Lora,sans-serif;
 	font-weight:700;
 	font-size:300% }
+.intro-header .site-heading h2 {
+	margin-top:0;
+	font-family:Times,Tahoma,Lora,sans-serif;
+	font-weight:700;
+	font-size:230% }
 	
 .intro-header .site-heading .subheading {
 	font-size:180%;
