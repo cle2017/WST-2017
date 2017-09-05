@@ -85,10 +85,12 @@ a img:focus, a img:hover { cursor:zoom-in }
 
 .intro-header {
 	background-color:#777;
-	background:no-repeat center center;
+	background:no-repeat center center;	
 	background-attachment:scroll;
+	background-size: 100%;
 	@inlcude background-cover;
 	margin-bottom:2% }
+	
 
 .intro-header .site-heading {
 	padding:12% 0 5%;
