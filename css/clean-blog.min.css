@@ -26,32 +26,19 @@ a {
 a:focus, a:hover { color:#0085a1 }
 a img:focus, a img:hover { cursor:zoom-in }
 
-
 #mainNav {
 	background-color:#fff;
 	border-bottom:1px solid #eee;
 	position:absolute;
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif }
 	
-#mainNav .navbar-brand {
-	color:#777;
-	font-size:100%;
-	font-weight:800 }
+#mainNav .navbar-brand {color:#777;font-size:100%;font-weight:800 }
 	
-#mainNav .navbar-toggler {
-	color:#777;
-	font-weight:800;
-	text-transform:uppercase;
-	font-size:68%;
-	padding:2% }
+#mainNav .navbar-toggler {color:#777;font-weight:800;text-transform:uppercase;font-size:68%;padding:2% }
 
 @media only screen and (min-width:992px) { 
-    #mainNav {
-		background:0 0;
-		border-bottom:1px solid transparent }
-	#mainNav .navbar-brand {
-		color:#fff;
-		padding:2% }
+    #mainNav { background:0 0;border-bottom:1px solid transparent }
+	#mainNav .navbar-brand { color:#fff; padding:2%; text-align:center }
 	#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color:rgba(255,255,255,.8) }
 }
 
@@ -66,7 +53,7 @@ a img:focus, a img:hover { cursor:zoom-in }
 		-o-transform:translate3d(0,0,0);
 		transform:translate3d(0,0,0);
 		-webkit-backface-visibility:hidden;backface-visibility:hidden }
-	#mainNav.is-fixed {
+	#mainNav.is-fixed { 
 		position:fixed;
 		top:-87px;
 		background-color:rgba(255,255,255,.9);
@@ -98,7 +85,7 @@ a img:focus, a img:hover { cursor:zoom-in }
 	color:#fff;
     text-align:center  }
 
-.intro-header .site-heading h1 {
+.intro-header .site-heading h1{
 	margin-top:0;
 	font-family:Times,Tahoma,Lora,sans-serif;
 	font-weight:700;
@@ -127,13 +114,13 @@ a img:focus, a img:hover { cursor:zoom-in }
 	margin-bottom:2% }
 .post-preview > .post-title  > .post-subtitle {
 	margin:0;
-	font-size:120%;
+	font-size:110%;
 	font-weight:200;
 	margin-bottom:2% }
 .post-preview > .post-meta {
 	/*!color:#777; */
 	color:#262626;
-	font-size:110%;
+	font-size:100%;
 	font-family:Tahoma;
 	margin-top:0 }
 .post-preview > .post-meta > a {
@@ -161,7 +148,7 @@ a img:focus, a img:hover { cursor:zoom-in }
 	text-decoration:underline }
 .post-preview > .dead-meta {
 	color:#262626;
-	font-size:110%;
+	font-size:100%;
 	font-family:Tahoma;
 	margin-top:0 }
 .post-preview > .dead-meta > .oldspan {
@@ -171,6 +158,7 @@ a img:focus, a img:hover { cursor:zoom-in }
     color:#A8A8A8	}
 .post-preview > .dead-meta > .newspan {
 	text-decoration:none;
+	font-size:90%;
 	font-weight:600;
     color:#B22222	}
 /*.post-preview > .dead-meta > .oldspan:focus,.post-preview > .dead-meta > .oldspan:hover {
